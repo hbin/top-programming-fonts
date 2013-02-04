@@ -1,9 +1,9 @@
 # Top Programming Fonts
 
-These are my favorite programming fonts! 
+My favorite programming fonts!
 
 ## How to install?
-`curl -L https://gitcafe.com/hbin/top-programming-fonts/raw/master/install.sh | bash`
+`curl -L https://github.com/hbin/top-programming-fonts/raw/master/install.sh | bash`
 
 ## How to use?
 
@@ -34,6 +34,6 @@ Fork and pull request!
 
 ## License
 
-**声明**：以上字体版权归属字体创作者，如有侵权，请致邮！
+**Notice**: Please let me know if you have any question about the license.
 
 

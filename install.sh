@@ -10,8 +10,10 @@ function die () {
 
 cat <<EOF
 
-Top Programming Fonts!
---------------------
+--------------------------
+ Top Programming Fonts!
+--------------------------
+  - Created and maintained by hbin
 
 EOF
 
@@ -21,13 +23,19 @@ if [[ ! -e $HBIN_FONT_DIR ]]; then
 fi
 
 for i in ${HBIN_FONTS[*]}; do
-    echo "Downloading $i"
-    echo ""
-    wget -c https://gitcafe.com/hbin/top-programming-fonts/raw/master/$i \
+    echo "Downloading $i"; echo
+    wget -c https://github.com/hbin/top-programming-fonts/raw/master/$i \
       || die "Fail to download ${i}"
-    echo "Installing $i"
     mv $i $HBIN_FONT_DIR || die "Could not install $i"
-    echo "Installed $i Successful"
+    echo "Installed $i successfully"; echo
 done
 
-echo "Fonts installed! Enjoying!\\n"
+cat <<EOF
+
+--------------------------
+ Fonts installed! Enjoying!
+--------------------------
+  - If you have any question, pls
+    mail to <embrace.hbin@gmail.com>
+
+EOF
