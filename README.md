@@ -3,7 +3,7 @@
 These are my favorite programming fonts! 
 
 ## How to install?
-curl -L https://gitcafe.com/hbin/top-programming-fonts/raw/master/install.sh | bash
+`curl -L https://gitcafe.com/hbin/top-programming-fonts/raw/master/install.sh | bash`
 
 ## How to use?
 
