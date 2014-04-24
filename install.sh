@@ -1,7 +1,7 @@
 #!/bin/bash
 
 HBIN_FONT_DIR=$HOME/.font
-HBIN_FONTS=("Menlo-Regular.ttf"  "Monaco-Linux.ttf")
+HBIN_FONTS=("Menlo-Regular.ttf"  "Monaco-Linux.ttf" "DejaVuSansMono.tff")
 
 function die () {
     echo "${@}"
