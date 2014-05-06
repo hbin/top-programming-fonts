@@ -1,7 +1,7 @@
 #!/bin/bash
 
 FONTS_DIR=$HOME/.fonts
-TOP_FONTS=("Menlo-Regular.ttf"  "Monaco-Linux.ttf")
+TOP_FONTS=("Menlo-Regular.ttf" "Monaco-Linux.ttf" "DejaVuSansMono.tff")
 
 function die () {
     echo "${@}"
