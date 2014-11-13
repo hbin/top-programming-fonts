@@ -33,7 +33,7 @@ done
 cat <<EOF
 
 --------------------------
- Fonts installed! Enjoying!
+ Fonts installed! Enjoy!
 --------------------------
   - If you have any question, pls
     mail to <huangbin88@foxmail.com>
